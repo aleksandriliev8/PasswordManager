@@ -1,0 +1,41 @@
+# Visual Studio общи
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build директории и бинарни файлове
+Debug/
+Release/
+x64/
+x86/
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.idb
+
+# Кешове и временни файлове
+*.log
+*.tlog
+*.lastbuildstate
+*.tmp
+
+# CMake (ако се използва)
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Файлове от Visual Studio Code (ако го ползваш паралелно)
+.vscode/
+
+# Системни файлове
+Thumbs.db
+.DS_Store
+
+# Ако използваш Git Bash или други терминали
+*.swp
