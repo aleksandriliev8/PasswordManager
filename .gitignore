@@ -24,18 +24,14 @@ x86/
 *.lastbuildstate
 *.tmp
 
-# CMake (ако се използва)
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-
-# Файлове от Visual Studio Code (ако го ползваш паралелно)
-.vscode/
-
 # Системни файлове
 Thumbs.db
 .DS_Store
 
 # Ако използваш Git Bash или други терминали
 *.swp
+
+# Игнориране на файлове от подпапката PasswordManager/
+PasswordManager/*.sln
+PasswordManager/**/*.vcxproj
+PasswordManager/**/*.filters
